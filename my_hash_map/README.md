@@ -134,6 +134,7 @@ If you are surprised by any spec failures along the way, remember to read both t
 Once you're done with those methods, we're also going to make your linked lists enumerable. We want them to be just as flexible as arrays. Remember back to when you wrote Array#my_each, and let's get this thing enumerating. The block passed to #each will yield to a node.
 
 Once you have #each defined, you can include the Enumerable module into your class. As long as you have each defined, the Enumerable module gives you map, each_with_index, select, any? and all of the other enumeration methods for free! (Note: you may wish to refactor your #update, #get, and #include methods to use your #each method for cleaner code!)
+
 Phase 5: Hash Map (reprise)
 
 So now let's incorporate our linked list into our hash buckets. Instead of Arrays, we'll use LinkedLists for our buckets. Each linked list will start out empty. But whenever we want to insert an item into that bucket, we'll just append it to the end of that linked list.
