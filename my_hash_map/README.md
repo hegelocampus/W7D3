@@ -100,6 +100,7 @@ Not too different from what we had before - and we now have a much better set th
 Now let's take it one step further.
 
 Up until now, our hash set has only been able to insert and then check for inclusion. We couldn't create a map of values, as in key-value pairs. Let's change that and create a hash map. But first, we'll have to build a subordinate, underlying data structure.
+
 Phase 4: Linked List
 
 A linked list is a data structure that consists of a series of nodes. Each node holds a value and a pointer to the next node (or nil). Given a pointer to the first (or head) node, you can access any arbitrary node by traversing the nodes in order.
